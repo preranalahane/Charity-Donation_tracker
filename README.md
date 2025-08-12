@@ -17,7 +17,6 @@ Our vision is to create a transparent and secure platform where charitable organ
 - Integrate with a front-end DApp for an easy donor interface.
 
 ## 5. Contract Address
-`<To be deployed on Stacks blockchain — address will appear here after deployment>`
 <img width="1892" height="864" alt="Screenshot 2025-08-12 150254" src="https://github.com/user-attachments/assets/2ad0082c-516c-4e44-b0a2-66758a279af2" />
 contract adress = ST3M10EGWRJYPKD1XFWHF20PDGTP3S1E6J70QPCX9.Charity-Donation-Tracker
 
