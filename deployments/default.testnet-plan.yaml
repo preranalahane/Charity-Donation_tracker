@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: Charity-Donation-Tracker
+            expected-sender: ST3M10EGWRJYPKD1XFWHF20PDGTP3S1E6J70QPCX9
+            cost: 7110
+            path: "contracts\\Charity-Donation-Tracker.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
